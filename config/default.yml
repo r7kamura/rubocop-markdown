@@ -1,0 +1,20 @@
+inherit_mode:
+  merge:
+    - Exclude
+    - Include
+
+AllCops:
+  Include:
+    - '**/*.{markdown,md}'
+
+Lint/EmptyFile:
+  Exclude:
+    - '**/*.{markdown,md}'
+
+Naming/FileName:
+  Exclude:
+    - '**/*.{markdown,md}'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '**/*.{markdown,md}'
