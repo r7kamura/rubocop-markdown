@@ -1,5 +1,6 @@
 require:
   - rubocop-markdown
+  - rubocop-rspec
 
 inherit_mode:
   merge:
@@ -17,6 +18,12 @@ Metrics:
 Naming/FileName:
   Exclude:
     - lib/rubocop-markdown.rb
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
