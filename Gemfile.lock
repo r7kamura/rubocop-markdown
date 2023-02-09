@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-markdown (0.1.0)
+    rubocop-markdown (0.2.0)
       commonmarker
       rubocop (~> 1.45)
 
