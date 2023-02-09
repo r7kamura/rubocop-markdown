@@ -18,7 +18,7 @@ gem install rubocop-markdown
 
 ## Usage
 
-Require `"rubocop-markdown"` in your RuboCop config.
+Require `rubocop-markdown` in your RuboCop config.
 
 ```yaml
 # .rubocop.yml
@@ -70,3 +70,9 @@ b
 # Ruby code block.
 a if array.size > 0
 ```
+
+## Related projects
+
+- https://github.com/r7kamura/rubocop-erb
+- https://github.com/r7kamura/rubocop-haml
+- https://github.com/r7kamura/rubocop-slim
