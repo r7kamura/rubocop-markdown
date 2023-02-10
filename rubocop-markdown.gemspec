@@ -4,7 +4,7 @@ require_relative 'lib/rubocop/markdown/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'rubocop-markdown'
-  spec.version = Rubocop::Markdown::VERSION
+  spec.version = RuboCop::Markdown::VERSION
   spec.authors = ['Ryo Nakamura']
   spec.email = ['r7kamura@gmail.com']
 
